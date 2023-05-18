@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GangSelot">
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="386dp"
+        android:layout_height="322dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="301dp"
+        app:srcCompat="@drawable/selot" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="133dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="116dp"
+        android:text="Berlokasi di Jalan Ir H Juanda, Gang Selot menjadi salah satu destinasi wisata kuliner di Bogor sejak 1974. Kuliner yang ditawarkan sangat beragam, mulai dari soto mi, doclang khas Bogor, bakso, hingga batagor. Gang Selot juga menawarkan minuman segar, seperti es pala, es podeng, dan es doger."
+        android:textAlignment="center" />
+
+</RelativeLayout>

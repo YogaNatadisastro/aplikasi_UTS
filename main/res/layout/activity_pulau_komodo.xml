@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PulauKomodo">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="371dp"
+        android:layout_height="203dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="366dp"
+        app:srcCompat="@drawable/komodo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="317dp"
+        android:layout_height="106dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="208dp"
+        android:text="Pulau Komodo merupakan sebauh pulau yang terletak pada Nusa Tenggara, berada di sebelah timur Pulau Sumbawa, yang kemudian dipisahkan oleh Selat Sape.\n salah satu tempat yang paling dikenal di Pulau ini ialah kawasan Taman Nasional Komodo"
+        android:textAlignment="center" />
+
+</RelativeLayout>

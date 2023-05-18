@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="355dp"
+        android:layout_height="279dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="354dp"
+        app:srcCompat="@drawable/indo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="133dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="168dp"
+        android:text="Indonesia merupakan negera yang memiliki kekayaan alam yang sangat melimpah ruah. Indonesia memiliki ragam budaya, suku, dan kultur yang memiliki keunikan nya tersendiri\n
+Indonesia tidak hanya sebuah negara, Indonesia adalah sebuah permata. Indonesia merupakan negara terluas ke-14 sekaligus negara kepulauan terbesar di dunia dengan luas wilayah sebesar 1.904.570 km²,[16] serta negara dengan pulau terbanyak ke-6 di dunia, dengan jumlah 17.504 pulau.[17] Nama alternatif yang dipakai untuk kepulauan Indonesia disebut Nusantara."
+        android:textAlignment="center" />
+
+</RelativeLayout>

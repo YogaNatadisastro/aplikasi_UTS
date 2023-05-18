@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TMII">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="398dp"
+        android:layout_height="336dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="336dp"
+        app:srcCompat="@drawable/tmii2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="363dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="214dp"
+        android:textAlignment="center"
+        android:text="Dari Sabang hingga Merauke, ribuan ragam corak adat dan budaya telah melengkapi berbagai aspek kehidupan di Indonesia. Masing-masing adat dan budaya Indonesia ini telah menjadi identitas setiap daerah di seluruh penjuru nusantara. Kekayaan nusantara inilah yang menjadi gagasan pembangunan Taman Mini “Indonesia Indah” (TMII) oleh Ibu Negara Siti Hartinah, atau yang lebih dikenal sebagai Ibu Tien Soeharto. Berdiri di atas area seluas 150 hektar, Taman Mini “Indonesia Indah” hadir sebagai rangkuman kebudayaan 33 provinsi bangsa Indonesia dalam bentuk miniatur kepulauan nusantara lengkap" />
+
+</RelativeLayout>

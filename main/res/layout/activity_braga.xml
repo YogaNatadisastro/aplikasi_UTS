@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Braga">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="387dp"
+        android:layout_height="235dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="371dp"
+        app:srcCompat="@drawable/braga" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="133dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="168dp"
+        android:text="Salah satu yang direkomendasikan untuk dikunjungi adalah Restoran Braga Permai, yang memiliki nuansa klasik khas kolonial. Berdiri sejak 1923, pengunjung dapat menikmati berbagai macam patisserie, dan es krim yang lezat."
+        android:textAlignment="center" />
+
+</RelativeLayout>

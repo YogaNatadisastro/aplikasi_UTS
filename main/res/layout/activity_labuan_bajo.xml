@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LabuanBajo">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="158dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="133dp"
+        android:text="Labuan Bajo Merupakan sebuah surga tersembunyi yang berada di Indonesia bagian timur\n terletak di Kecamatan Komodo, Kabupaten Manggarai Barat, Provinsi Nusa Tenggara Timur.\n Labuan Bajo merupakan salah satu tempat wisata bagi pengunjung yang datang
+ . Labuan Bajo ialah salah satu Destinasi Super Priorotas yang sedang dikembangkan di indonesia." />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="389dp"
+        android:layout_height="341dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="344dp"
+        app:srcCompat="@drawable/labuan" />
+
+</RelativeLayout>

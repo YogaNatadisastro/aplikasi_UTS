@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KebunRayaBgr">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="389dp"
+        android:layout_height="401dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="272dp"
+        app:srcCompat="@drawable/kebun" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="133dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="147dp"
+        android:text="Kebun Raya Bogor atau Kebun Botani Bogor merupakan salah satu kebun botani terbesar yang terletak di Kota Bogor, Indonesia\
+dioperasikan oleh Lembaga Ilmu Pengetahuan Indonesia (LIPI), kebun ini terletak di pusat kota Bogor dan bersebelahan langsung dengan kompleks Istana Bogor"
+        android:textAlignment="center" />
+
+</RelativeLayout>

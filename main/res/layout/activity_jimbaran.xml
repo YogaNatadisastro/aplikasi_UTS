@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jimbaran">
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="370dp"
+        app:srcCompat="@drawable/bali" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="133dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="168dp"
+        android:text="Daerah wisata Jimbaran merupakan salah satu destinasi favorit wisatawan di Pulau Bali. Selain memiliki Taman Budaya Garuda Wisnu Kencana dan juga Dreamland, Jimbaran menawarkan banyak tempat untuk wisata kuliner yang menyajikan kelezatan hidangan laut. Salah satu pusat wisata kuliner di sepanjang Pantai Jimbaran, tiga di antaranya adalah Menega Cafe, Bela Seafood, dan Nelayan Reataurant."
+        android:textAlignment="center" />
+
+</RelativeLayout>

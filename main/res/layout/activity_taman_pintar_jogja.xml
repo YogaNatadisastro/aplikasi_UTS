@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TamanPintarJogja">
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="344dp"
+        android:layout_height="341dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="304dp"
+        app:srcCompat="@drawable/tpy" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="133dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="146dp"
+        android:text="Taman Pintar adalah tempat rekreasi edukasi yang keren dan seru di Jogja. Harga tiket masuknya terjangkau. Wahananya ada planetarium, wahana bahari, zona pengolahan sampah, science theater, playground, perpustakaan, kampung kerajinan, gedung oval, dll."
+        android:textAlignment="center" />
+</RelativeLayout>
