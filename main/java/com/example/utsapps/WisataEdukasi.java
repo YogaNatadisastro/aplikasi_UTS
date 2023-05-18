@@ -17,7 +17,7 @@ public class WisataEdukasi extends AppCompatActivity {
         setContentView(R.layout.activity_wisata_edukasi);
 
         listView = (ListView) findViewById(R.id.listalam);
-        String[] values = new  String[] {"Taman Mini Indonesia Indah", "Kebun Raya Bogor", "Taman Pinta Yogyakarta"
+        String[] values = new  String[] {"Taman Mini Indonesia Indah", "Kebun Raya Bogor", "Taman Pintar Yogyakarta"
         , "Museum Dewantara Kirti Griya"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
